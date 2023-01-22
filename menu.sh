@@ -57,6 +57,6 @@ do
                 read archivo
                 echo "Escribe donde se encuentra ese archivo (Ej: /home/alumno/Documentos)"
                 read directorio
-                echo `$more $directorio"/"$archivo`
+                echo `more $directorio"/"$archivo`
         fi
 done
